@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: cd backend && pip install -r requirements.txt
+      - name: Smoke test
+        run: |
+          cd backend
+          python -c "
+          import ast, sys
+          sys.path.insert(0, '.')
+          from app.scanners.rules.sql_injection import detect_sql_injection
+          from app.scanners.rules.hardcoded_secrets import detect_hardcoded_secrets
+          print('Rules imported OK')
+          "
+      - name: Docker build
+        run: docker compose build
