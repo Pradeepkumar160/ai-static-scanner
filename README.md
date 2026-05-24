@@ -1,4 +1,4 @@
-# 🛡️ Shield AI Scanner
+# 🛡️ Shield AI Scanner||
 
 > **Production-grade AI-powered Static Application Security Testing (SAST) platform**  
 > Detects vulnerabilities in your code using AST analysis + AI-generated explanations.
@@ -10,7 +10,7 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start||
 
 ### Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
@@ -49,7 +49,7 @@ docker compose up --build
 
 ---
 
-## 🔍 What It Detects
+## 🔍 What It Detects||
 
 | Vulnerability | OWASP Category | Description |
 |--------------|---------------|-------------|
@@ -62,7 +62,7 @@ docker compose up --build
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture||
 
 ```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -86,7 +86,7 @@ docker compose up --build
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure||
 
 ```
 ai-static-scanner/
@@ -125,7 +125,7 @@ ai-static-scanner/
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing||
 
 1. Fork the repo
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -135,7 +135,7 @@ ai-static-scanner/
 
 ---
 
-## 📄 License
+## 📄 License||
 
 MIT License — feel free to use this project for learning and building!
 
