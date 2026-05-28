@@ -10,7 +10,7 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start  
 
 ### Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
