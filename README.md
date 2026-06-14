@@ -1,4 +1,4 @@
-# 🛡️ Shield AI Scanner
+# 🛡️ Shield AI Scanner 
  
 > **Production-grade AI-powered Static Application Security Testing (SAST) platform**  
 > Detects vulnerabilities in your code using AST analysis + AI-generated explanations.
